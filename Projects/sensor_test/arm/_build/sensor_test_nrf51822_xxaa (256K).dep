@@ -1,0 +1,183 @@
+Dependencies for Project 'sensor_test', Target 'nrf51822_xxaa (256K)': (DO NOT MODIFY !)
+F (..\main.c)(0x54A1DB2A)(--c99 -c --cpu Cortex-M0 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\Include -I..\..\..\Include\sdk_soc -I..\..\..\Include\app_common -I..\-I C:\Users\Nikolas\Documents\WCS_Sensor\Projects\sensor_test\arm\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.1\Device\Include-D_RTE_ -DNRF51 -DNRF51 -DBOARD_NRF6310 -DDEBUG -DSPI_MASTER_0_ENABLE-o .\_build\main.o --omf_browse .\_build\main.crf --depend .\_build\main.d)
+I (..\..\..\Include\nrf_delay.h)(0x54007D1C)
+I (..\..\..\Include\nrf.h)(0x54007D3C)
+I (..\..\..\Include\nrf51.h)(0x54007D3C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0.h)(0x53FC863A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5419F1DA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FF470A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FF470A)
+I (..\..\..\Include\system_nrf51.h)(0x54007D3C)
+I (..\..\..\Include\nrf51_bitfields.h)(0x54007D3C)
+I (..\..\..\Include\nrf51_deprecated.h)(0x54007D3C)
+I (..\..\..\Include\compiler_abstraction.h)(0x54007D3C)
+I (..\..\..\Include\nrf_gpio.h)(0x54007D1C)
+I (..\..\..\Include\common.h)(0x54007D1C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5419F1DC)
+I (..\..\..\Include\app_common\app_error.h)(0x544AB734)
+I (..\..\..\Include\sdk_soc\nrf_error.h)(0x54007D1C)
+I (..\..\..\Include\sdk_soc\app_util_platform.h)(0x54007D1C)
+I (..\..\..\Include\spi_master.h)(0x5462703C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5419F1DC)
+I (..\..\..\Include\simple_uart.h)(0x546273FE)
+I (..\..\..\Include\twi_master.h)(0x54007D1C)
+I (..\mpu_9250.h)(0x5465D5FC)
+I (..\ADS8320.h)(0x5457A6FA)
+I (..\ltc_2942.h)(0x545CC6FE)
+I (..\BMP085.h)(0x5492D4C8)
+I (..\..\..\Include\powermeter_board.h)(0x546A109A)
+I (..\example_config.h)(0x5462741E)
+F (..\..\..\Source\keil_arm_uv4.lnt)(0x54007D1C)()
+F (RTE\Device\nRF51822_xxAA\arm_startup_nrf51.s)(0x53FC4DDE)(--cpu Cortex-M0 --li --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Users\Nikolas\Documents\WCS_Sensor\Projects\sensor_test\arm\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.1\Device\Include--pd "_RTE_ SETA 1" --pd "NRF51 SETA 1"--list .\_build\arm_startup_nrf51.lst --xref -o .\_build\arm_startup_nrf51.o --depend .\_build\arm_startup_nrf51.d)
+F (RTE\Device\nRF51822_xxAA\system_nrf51.c)(0x53FC4DDE)(--c99 -c --cpu Cortex-M0 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\Include -I..\..\..\Include\sdk_soc -I..\..\..\Include\app_common -I..\-I C:\Users\Nikolas\Documents\WCS_Sensor\Projects\sensor_test\arm\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.1\Device\Include-D_RTE_ -DNRF51 -DNRF51 -DBOARD_NRF6310 -DDEBUG -DSPI_MASTER_0_ENABLE-o .\_build\system_nrf51.o --omf_browse .\_build\system_nrf51.crf --depend .\_build\system_nrf51.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5419F1DA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5419F1DC)
+I (..\..\..\Include\nrf.h)(0x54007D3C)
+I (..\..\..\Include\nrf51.h)(0x54007D3C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0.h)(0x53FC863A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FF470A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FF470A)
+I (..\..\..\Include\system_nrf51.h)(0x54007D3C)
+I (..\..\..\Include\nrf51_bitfields.h)(0x54007D3C)
+I (..\..\..\Include\nrf51_deprecated.h)(0x54007D3C)
+I (..\..\..\Include\compiler_abstraction.h)(0x54007D3C)
+F (RTE\Device\nRF51822_xxAB\arm_startup_nrf51.s)(0x53FC4DDE)()
+F (RTE\Device\nRF51822_xxAB\system_nrf51.c)(0x53FC4DDE)()
+F (..\..\..\Source\spi_master\spi_master.c)(0x54886572)(--c99 -c --cpu Cortex-M0 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\Include -I..\..\..\Include\sdk_soc -I..\..\..\Include\app_common -I..\-I C:\Users\Nikolas\Documents\WCS_Sensor\Projects\sensor_test\arm\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.1\Device\Include-D_RTE_ -DNRF51 -DNRF51 -DBOARD_NRF6310 -DDEBUG -DSPI_MASTER_0_ENABLE-o .\_build\spi_master.o --omf_browse .\_build\spi_master.crf --depend .\_build\spi_master.d)
+I (..\..\..\Include\app_common\app_error.h)(0x544AB734)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5419F1DA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5419F1DC)
+I (..\..\..\Include\sdk_soc\nrf_error.h)(0x54007D1C)
+I (..\..\..\Include\nrf_gpio.h)(0x54007D1C)
+I (..\..\..\Include\nrf51.h)(0x54007D3C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0.h)(0x53FC863A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FF470A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FF470A)
+I (..\..\..\Include\system_nrf51.h)(0x54007D3C)
+I (..\..\..\Include\nrf51_bitfields.h)(0x54007D3C)
+I (..\..\..\Include\sdk_soc\nrf_soc.h)(0x54007D1C)
+I (..\..\..\Include\spi_master.h)(0x5462703C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5419F1DC)
+F (..\..\..\Source\nrf_delay\nrf_delay.c)(0x54007D1C)(--c99 -c --cpu Cortex-M0 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\Include -I..\..\..\Include\sdk_soc -I..\..\..\Include\app_common -I..\-I C:\Users\Nikolas\Documents\WCS_Sensor\Projects\sensor_test\arm\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.1\Device\Include-D_RTE_ -DNRF51 -DNRF51 -DBOARD_NRF6310 -DDEBUG -DSPI_MASTER_0_ENABLE-o .\_build\nrf_delay.o --omf_browse .\_build\nrf_delay.crf --depend .\_build\nrf_delay.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5419F1DC)
+I (..\..\..\Include\compiler_abstraction.h)(0x54007D3C)
+I (..\..\..\Include\nrf.h)(0x54007D3C)
+I (..\..\..\Include\nrf51.h)(0x54007D3C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0.h)(0x53FC863A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5419F1DA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FF470A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FF470A)
+I (..\..\..\Include\system_nrf51.h)(0x54007D3C)
+I (..\..\..\Include\nrf51_bitfields.h)(0x54007D3C)
+I (..\..\..\Include\nrf51_deprecated.h)(0x54007D3C)
+I (..\..\..\Include\nrf_delay.h)(0x54007D1C)
+F (..\..\..\Source\sdk_soc\nrf_soc.c)(0x54007D1C)(--c99 -c --cpu Cortex-M0 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\Include -I..\..\..\Include\sdk_soc -I..\..\..\Include\app_common -I..\-I C:\Users\Nikolas\Documents\WCS_Sensor\Projects\sensor_test\arm\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.1\Device\Include-D_RTE_ -DNRF51 -DNRF51 -DBOARD_NRF6310 -DDEBUG -DSPI_MASTER_0_ENABLE-o .\_build\nrf_soc.o --omf_browse .\_build\nrf_soc.crf --depend .\_build\nrf_soc.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5419F1DC)
+I (..\..\..\Include\sdk_soc\nrf_soc.h)(0x54007D1C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5419F1DA)
+I (..\..\..\Include\nrf51.h)(0x54007D3C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0.h)(0x53FC863A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FF470A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FF470A)
+I (..\..\..\Include\system_nrf51.h)(0x54007D3C)
+I (..\..\..\Include\sdk_soc\nrf_error.h)(0x54007D1C)
+F (..\..\..\Source\simple_uart\simple_uart.c)(0x549406B1)(--c99 -c --cpu Cortex-M0 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\Include -I..\..\..\Include\sdk_soc -I..\..\..\Include\app_common -I..\-I C:\Users\Nikolas\Documents\WCS_Sensor\Projects\sensor_test\arm\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.1\Device\Include-D_RTE_ -DNRF51 -DNRF51 -DBOARD_NRF6310 -DDEBUG -DSPI_MASTER_0_ENABLE-o .\_build\simple_uart.o --omf_browse .\_build\simple_uart.crf --depend .\_build\simple_uart.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5419F1DA)
+I (..\..\..\Include\nrf.h)(0x54007D3C)
+I (..\..\..\Include\nrf51.h)(0x54007D3C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0.h)(0x53FC863A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FF470A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FF470A)
+I (..\..\..\Include\system_nrf51.h)(0x54007D3C)
+I (..\..\..\Include\nrf51_bitfields.h)(0x54007D3C)
+I (..\..\..\Include\nrf51_deprecated.h)(0x54007D3C)
+I (..\..\..\Include\compiler_abstraction.h)(0x54007D3C)
+I (..\..\..\Include\simple_uart.h)(0x546273FE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5419F1DC)
+I (..\..\..\Include\nrf_delay.h)(0x54007D1C)
+I (..\..\..\Include\nrf_gpio.h)(0x54007D1C)
+F (..\mpu_9250.c)(0x54871D12)(--c99 -c --cpu Cortex-M0 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\Include -I..\..\..\Include\sdk_soc -I..\..\..\Include\app_common -I..\-I C:\Users\Nikolas\Documents\WCS_Sensor\Projects\sensor_test\arm\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.1\Device\Include-D_RTE_ -DNRF51 -DNRF51 -DBOARD_NRF6310 -DDEBUG -DSPI_MASTER_0_ENABLE-o .\_build\mpu_9250.o --omf_browse .\_build\mpu_9250.crf --depend .\_build\mpu_9250.d)
+I (..\mpu_9250.h)(0x5465D5FC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5419F1DC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5419F1DA)
+I (..\..\..\Include\nrf_gpio.h)(0x54007D1C)
+I (..\..\..\Include\nrf51.h)(0x54007D3C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0.h)(0x53FC863A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FF470A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FF470A)
+I (..\..\..\Include\system_nrf51.h)(0x54007D3C)
+I (..\..\..\Include\nrf51_bitfields.h)(0x54007D3C)
+I (..\..\..\Include\powermeter_board.h)(0x546A109A)
+I (..\..\..\Include\nrf_delay.h)(0x54007D1C)
+I (..\..\..\Include\nrf.h)(0x54007D3C)
+I (..\..\..\Include\nrf51_deprecated.h)(0x54007D3C)
+I (..\..\..\Include\compiler_abstraction.h)(0x54007D3C)
+I (..\..\..\Include\sdk_soc\nrf_error.h)(0x54007D1C)
+I (..\..\..\Include\spi_master.h)(0x5462703C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5419F1DC)
+I (..\..\..\Include\sdk_soc\app_util_platform.h)(0x54007D1C)
+I (..\..\..\Include\app_common\app_error.h)(0x544AB734)
+F (..\ADS8320.c)(0x54886528)(--c99 -c --cpu Cortex-M0 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\Include -I..\..\..\Include\sdk_soc -I..\..\..\Include\app_common -I..\-I C:\Users\Nikolas\Documents\WCS_Sensor\Projects\sensor_test\arm\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.1\Device\Include-D_RTE_ -DNRF51 -DNRF51 -DBOARD_NRF6310 -DDEBUG -DSPI_MASTER_0_ENABLE-o .\_build\ads8320.o --omf_browse .\_build\ads8320.crf --depend .\_build\ads8320.d)
+I (..\ADS8320.h)(0x5457A6FA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5419F1DC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5419F1DA)
+I (..\..\..\Include\nrf_gpio.h)(0x54007D1C)
+I (..\..\..\Include\nrf51.h)(0x54007D3C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0.h)(0x53FC863A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FF470A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FF470A)
+I (..\..\..\Include\system_nrf51.h)(0x54007D3C)
+I (..\..\..\Include\nrf51_bitfields.h)(0x54007D3C)
+I (..\..\..\Include\powermeter_board.h)(0x546A109A)
+I (..\..\..\Include\spi_master.h)(0x5462703C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5419F1DC)
+I (..\..\..\Include\sdk_soc\app_util_platform.h)(0x54007D1C)
+I (..\..\..\Include\compiler_abstraction.h)(0x54007D3C)
+I (..\..\..\Include\app_common\app_error.h)(0x544AB734)
+I (..\..\..\Include\sdk_soc\nrf_error.h)(0x54007D1C)
+F (..\ltc_2942.c)(0x5465FE7A)(--c99 -c --cpu Cortex-M0 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\Include -I..\..\..\Include\sdk_soc -I..\..\..\Include\app_common -I..\-I C:\Users\Nikolas\Documents\WCS_Sensor\Projects\sensor_test\arm\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.1\Device\Include-D_RTE_ -DNRF51 -DNRF51 -DBOARD_NRF6310 -DDEBUG -DSPI_MASTER_0_ENABLE-o .\_build\ltc_2942.o --omf_browse .\_build\ltc_2942.crf --depend .\_build\ltc_2942.d)
+I (..\ltc_2942.h)(0x545CC6FE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5419F1DC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5419F1DA)
+I (..\..\..\Include\nrf_gpio.h)(0x54007D1C)
+I (..\..\..\Include\nrf51.h)(0x54007D3C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0.h)(0x53FC863A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FF470A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FF470A)
+I (..\..\..\Include\system_nrf51.h)(0x54007D3C)
+I (..\..\..\Include\nrf51_bitfields.h)(0x54007D3C)
+I (..\..\..\Include\powermeter_board.h)(0x546A109A)
+I (..\..\..\Include\twi_master.h)(0x54007D1C)
+F (..\..\..\Source\twi_master\twi_hw_master.c)(0x5492D278)(--c99 -c --cpu Cortex-M0 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\Include -I..\..\..\Include\sdk_soc -I..\..\..\Include\app_common -I..\-I C:\Users\Nikolas\Documents\WCS_Sensor\Projects\sensor_test\arm\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.1\Device\Include-D_RTE_ -DNRF51 -DNRF51 -DBOARD_NRF6310 -DDEBUG -DSPI_MASTER_0_ENABLE-o .\_build\twi_hw_master.o --omf_browse .\_build\twi_hw_master.crf --depend .\_build\twi_hw_master.d)
+I (..\..\..\Include\twi_master.h)(0x54007D1C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5419F1DC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5419F1DA)
+I (..\..\..\Include\nrf.h)(0x54007D3C)
+I (..\..\..\Include\nrf51.h)(0x54007D3C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0.h)(0x53FC863A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FF470A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FF470A)
+I (..\..\..\Include\system_nrf51.h)(0x54007D3C)
+I (..\..\..\Include\nrf51_bitfields.h)(0x54007D3C)
+I (..\..\..\Include\nrf51_deprecated.h)(0x54007D3C)
+I (..\..\..\Include\compiler_abstraction.h)(0x54007D3C)
+I (..\..\..\Include\nrf_delay.h)(0x54007D1C)
+I (..\..\..\Include\nrf_gpio.h)(0x54007D1C)
+I (..\..\..\Include\powermeter_board.h)(0x546A109A)
+F (..\BMP085.c)(0x5492E7C8)(--c99 -c --cpu Cortex-M0 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\Include -I..\..\..\Include\sdk_soc -I..\..\..\Include\app_common -I..\-I C:\Users\Nikolas\Documents\WCS_Sensor\Projects\sensor_test\arm\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.1\Device\Include-D_RTE_ -DNRF51 -DNRF51 -DBOARD_NRF6310 -DDEBUG -DSPI_MASTER_0_ENABLE-o .\_build\bmp085.o --omf_browse .\_build\bmp085.crf --depend .\_build\bmp085.d)
+I (..\BMP085.h)(0x5492D4C8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5419F1DC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5419F1DA)
+I (..\..\..\Include\nrf_gpio.h)(0x54007D1C)
+I (..\..\..\Include\nrf51.h)(0x54007D3C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0.h)(0x53FC863A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FF470A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FF470A)
+I (..\..\..\Include\system_nrf51.h)(0x54007D3C)
+I (..\..\..\Include\nrf51_bitfields.h)(0x54007D3C)
+I (..\..\..\Include\powermeter_board.h)(0x546A109A)
+I (..\..\..\Include\twi_master.h)(0x54007D1C)
+I (..\..\..\Include\nrf_delay.h)(0x54007D1C)
+I (..\..\..\Include\nrf.h)(0x54007D3C)
+I (..\..\..\Include\nrf51_deprecated.h)(0x54007D3C)
+I (..\..\..\Include\compiler_abstraction.h)(0x54007D3C)

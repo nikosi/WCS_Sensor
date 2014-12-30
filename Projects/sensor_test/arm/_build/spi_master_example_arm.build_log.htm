@@ -1,0 +1,161 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.12.0.0
+Copyright (C) 2014 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Nikolas Simon, University of Freiburg, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.12.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 (build 41)
+Assembler:       Armasm.exe V5.05 (build 41)
+Linker/Locator:  ArmLink.exe V5.05 (build 41)
+Library Manager: ArmAr.exe V5.05 (build 41)
+Hex Converter:   FromElf.exe V5.05 (build 41)
+CPU DLL:         SARMCM3.DLL V5.12.0.0
+Dialog DLL:      DARMCM1.DLL V1.11.00.0
+    Target DLL: Segger\JL2CM3.dll
+Dialog DLL:      TARMCM1.DLL V1.08.00.0
+ 
+<h2>Project:</h2>
+C:\Users\Nikolas\Documents\WCS_Sensor\Projects\sensor_test\arm\sensor_test.uvprojx
+Project File Date:  12/16/2014
+
+<h2>Output:</h2>
+Rebuild target 'nrf51822_xxaa (256K)'
+creating preprocessor file for main.c...
+compiling main.c...
+..\main.c(65): warning:  #177-D: variable "tx_data" was declared but never referenced
+  static uint8_t tx_data[TX_RX_MSG_LENGTH]; /**< SPI master TX buffer. */
+..\main.c(66): warning:  #177-D: variable "rx_data" was declared but never referenced
+  static uint8_t rx_data[TX_RX_MSG_LENGTH]; /**< SPI master RX buffer. */
+..\main.c: 2 warnings, 0 errors
+assembling arm_startup_nrf51.s...
+creating preprocessor file for system_nrf51.c...
+compiling system_nrf51.c...
+creating preprocessor file for spi_master.c...
+compiling spi_master.c...
+creating preprocessor file for nrf_delay.c...
+compiling nrf_delay.c...
+creating preprocessor file for nrf_soc.c...
+compiling nrf_soc.c...
+creating preprocessor file for simple_uart.c...
+compiling simple_uart.c...
+creating preprocessor file for mpu_9250.c...
+compiling mpu_9250.c...
+creating preprocessor file for ADS8320.c...
+compiling ADS8320.c...
+..\ADS8320.c(73): warning:  #550-D: variable "adc_pin" was set but never used
+      uint8_t adc_pin;
+..\ADS8320.c: 1 warning, 0 errors
+creating preprocessor file for ltc_2942.c...
+compiling ltc_2942.c...
+creating preprocessor file for twi_hw_master.c...
+compiling twi_hw_master.c...
+creating preprocessor file for BMP085.c...
+compiling BMP085.c...
+linking...
+Program Size: Code=5400 RO-data=360 RW-data=48 ZI-data=4312  
+FromELF: creating hex file...
+".\_build\spi_master_example_arm.axf" - 0 Error(s), 3 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.2.0.pack
+                ARM::CMSIS:CORE:3.40.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 3.40.0
+
+Package Vendor: NordicSemiconductor
+                http://www.keil.com/pack/NordicSemiconductor.nRF_DeviceFamilyPack.1.1.1.pack
+                NordicSemiconductor::Device:Startup:1.0.0
+                Nordic Semiconductor nRF ARM devices Device Family Pack.
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\Nikolas\Documents\WCS_Sensor\Projects\sensor_test\arm\RTE
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.1\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:3.40.0
+      Source file:   CMSIS\UserCodeTemplates\ARM\ITM_Retarget.c
+
+   * Component: NordicSemiconductor::Device:Startup:1.0.0
+      Source file:   Device\Source\arm\arm_startup_nrf51.s
+      Include file:  Device\Include\system_nrf51.h
+      Source file:   Device\Source\system_nrf51.c
+</pre>
+</body>
+</html>
+14): error:  #5: cannot open source input file "nrf_gpio.h": No such file or directory
+   #include "nrf_gpio.h"
+..\mpu_9250.c: 0 warnings, 1 error
+creating preprocessor file for ADS8320.c...
+..\ADS8320.c(12): error:  #5: cannot open source input file "nrf_gpio.h": No such file or directory
+   #include "nrf_gpio.h"
+..\ADS8320.c: 0 warnings, 1 error
+compiling ADS8320.c...
+..\ADS8320.c(12): error:  #5: cannot open source input file "nrf_gpio.h": No such file or directory
+   #include "nrf_gpio.h"
+..\ADS8320.c: 0 warnings, 1 error
+creating preprocessor file for ltc_2942.c...
+..\ltc_2942.c(14): error:  #5: cannot open source input file "nrf_gpio.h": No such file or directory
+   #include "nrf_gpio.h"
+..\ltc_2942.c: 0 warnings, 1 error
+compiling ltc_2942.c...
+..\ltc_2942.c(14): error:  #5: cannot open source input file "nrf_gpio.h": No such file or directory
+   #include "nrf_gpio.h"
+..\ltc_2942.c: 0 warnings, 1 error
+creating preprocessor file for twi_hw_master.c...
+..\..\..\Source\twi_master\twi_hw_master.c(13): error:  #5: cannot open source input file "twi_master.h": No such file or directory
+  #include "twi_master.h"
+..\..\..\Source\twi_master\twi_hw_master.c: 0 warnings, 1 error
+compiling twi_hw_master.c...
+..\..\..\Source\twi_master\twi_hw_master.c(13): error:  #5: cannot open source input file "twi_master.h": No such file or directory
+  #include "twi_master.h"
+..\..\..\Source\twi_master\twi_hw_master.c: 0 warnings, 1 error
+creating preprocessor file for BMP085.c...
+..\BMP085.c(15): error:  #5: cannot open source input file "nrf_gpio.h": No such file or directory
+   #include "nrf_gpio.h"
+..\BMP085.c: 0 warnings, 1 error
+compiling BMP085.c...
+..\BMP085.c(15): error:  #5: cannot open source input file "nrf_gpio.h": No such file or directory
+   #include "nrf_gpio.h"
+..\BMP085.c: 0 warnings, 1 error
+".\_build\spi_master_example_arm.axf" - 20 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.2.0.pack
+                ARM::CMSIS:CORE:3.40.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 3.40.0
+
+Package Vendor: NordicSemiconductor
+                http://www.keil.com/pack/NordicSemiconductor.nRF_DeviceFamilyPack.1.1.1.pack
+                NordicSemiconductor::Device:Startup:1.0.0
+                Nordic Semiconductor nRF ARM devices Device Family Pack.
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\Nikolas\Documents\WCS_Sensor\Projects\sensor_test\arm\RTE
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.1\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:3.40.0
+      Source file:   CMSIS\UserCodeTemplates\ARM\ITM_Retarget.c
+
+   * Component: NordicSemiconductor::Device:Startup:1.0.0
+      Source file:   Device\Source\arm\arm_startup_nrf51.s
+      Include file:  Device\Include\system_nrf51.h
+      Source file:   Device\Source\system_nrf51.c
+Target not created.

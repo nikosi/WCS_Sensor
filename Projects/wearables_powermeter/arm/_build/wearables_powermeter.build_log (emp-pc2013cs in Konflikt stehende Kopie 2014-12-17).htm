@@ -1,0 +1,147 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.12.0.0
+Copyright (C) 2014 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Nikolas Simon, University of Freiburg, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.12.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 (build 41)
+Assembler:       Armasm.exe V5.05 (build 41)
+Linker/Locator:  ArmLink.exe V5.05 (build 41)
+Library Manager: ArmAr.exe V5.05 (build 41)
+Hex Converter:   FromElf.exe V5.05 (build 41)
+CPU DLL:         SARMCM3.DLL V5.12.0.0
+Dialog DLL:      DCM.DLL V1.13.0.0
+    Target DLL: Segger\JL2CM3.dll
+Dialog DLL:      TCM.DLL V1.14.2.0
+ 
+<h2>Project:</h2>
+C:\Users\nikol_000\Dropbox\IBS\Powermeter\nrf51422\Board\nrf6310\s310\wearables_powermeter\arm\wearables_powermeter.uvprojx
+Project File Date:  12/15/2014
+
+<h2>Output:</h2>
+Rebuild target 'nrf51422_xxaa_s310 (256K)'
+compiling main.c...
+compiling spi_master.c...
+compiling twi_hw_master_sd.c...
+compiling mpu_9250.c...
+compiling ltc_2942.c...
+compiling ADS8320.c...
+compiling ble_dis.c...
+compiling ble_bas.c...
+compiling ble_hrs.c...
+compiling ble_cp.c...
+compiling ble_error_log.c...
+compiling ble_advdata.c...
+compiling ble_srv_common.c...
+compiling ble_sensorsim.c...
+compiling app_timer.c...
+compiling softdevice_handler.c...
+compiling ble_conn_params.c...
+compiling app_trace.c...
+compiling simple_uart.c...
+compiling device_manager_peripheral.c...
+compiling pstorage.c...
+compiling crc16.c...
+compiling ble_debug_assert_handler.c...
+compiling nrf_delay.c...
+assembling arm_startup_nrf51.s...
+compiling system_nrf51.c...
+linking...
+Program Size: Code=29424 RO-data=648 RW-data=260 ZI-data=5916  
+FromELF: creating hex file...
+".\_build\wearables_powermeter.axf" - 0 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.2.0.pack
+                ARM::CMSIS:CORE:3.40.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 3.40.0
+
+Package Vendor: NordicSemiconductor
+                http://www.keil.com/pack/NordicSemiconductor.nRF_DeviceFamilyPack.1.1.1.pack
+                NordicSemiconductor::Device:Startup:1.0.0
+                Nordic Semiconductor nRF ARM devices Device Family Pack.
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\nikol_000\Dropbox\IBS\Powermeter\nrf51422\Board\nrf6310\s310\wearables_powermeter\arm\RTE
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.1\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:3.40.0
+      Source file:   CMSIS\UserCodeTemplates\ARM\ITM_Retarget.c
+
+   * Component: NordicSemiconductor::Device:Startup:1.0.0
+      Source file:   Device\Source\arm\arm_startup_nrf51.s
+      Source file:   Device\Source\system_nrf51.c
+      Include file:  Device\Include\system_nrf51.h
+Load "C:\\Users\\nikol_000\\Dropbox\\IBS\\Powermeter\\nrf51422\\Board\\nrf6310\\s310\\wearables_powermeter\\arm\\_build\\wearables_powermeter.axf" 
+Set JLink Project File to "C:\Users\nikol_000\Dropbox\IBS\Powermeter\nrf51422\Board\nrf6310\s310\wearables_powermeter\arm\JLinkSettings.ini"
+* JLink Info: Device "NRF51422_XXAA" selected (257 KB flash, 16 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.92 , compiled Sep 30 2014 09:33:42
+Firmware: J-Link Lite-Cortex-M V8 compiled Jul 17 2014 11:40:12
+Hardware: V8.00
+S/N : 518108182 
+Feature(s) : GDB 
+ 
+* JLink Info: Found SWD-DP with ID 0x0BB11477
+* JLink Info: Found Cortex-M0 r0p0, Little endian.
+* JLink Info: FPUnit: 4 code (BP) slots and 0 literal slots
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: nRF51422_xxAA
+VTarget = 3.319V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 4
+Software-Breakpoints: 8192
+Watchpoints:          2
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+***JLink Error: Can not read register 15 (R15) while CPU is running
+**JLink Warning: CPU could not be halted
+***JLink Error: Could not read memory location 0x20000000 when trying to clear soft RAM BP
+Could not start CPU core. (ErrorCode: -1)
+***JLink Error: Can not read register 20 (CFBP) while CPU is running
+**JLink Warning: CPU could not be halted
+***JLink Error: Could not start CPU core. (ErrorCode: -1)
+***JLink Error: CPU is not halted
+***JLink Error: Can not read register 15 (R15) while CPU is running
+**JLink Warning: CPU could not be halted
+***JLink Error: Could not read memory location 0x20000000 when trying to clear soft RAM BP
+Could not start CPU core. (ErrorCode: -1)
+Programming Failed!
+Error: Flash Download failed  -  "Cortex-M0"
+***JLink Error: Could not read memory location 0x20000000 when trying to clear soft RAM BP
+Load "C:\\Users\\nikol_000\\Dropbox\\IBS\\Powermeter\\nrf51422\\Board\\nrf6310\\s310\\wearables_powermeter\\arm\\_build\\wearables_powermeter.axf" 
+Set JLink Project File to "C:\Users\nikol_000\Dropbox\IBS\Powermeter\nrf51422\Board\nrf6310\s310\wearables_powermeter\arm\JLinkSettings.ini"
+* JLink Info: Device "NRF51422_XXAA" selected (257 KB flash, 16 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.92 , compiled Sep 30 2014 09:33:42
+Firmware: J-Link Lite-Cortex-M V8 compiled Jul 17 2014 11:40:12
+Hardware: V8.00
+S/N : 518108182 
+Feature(s) : GDB 
+ 
+Error: Flash Download failed  -  Target DLL has been cancelled
+</pre>
+</body>
+</html>

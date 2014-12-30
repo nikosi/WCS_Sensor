@@ -1,0 +1,136 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.12.0.0
+Copyright (C) 2014 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Nikolas Simon, University of Freiburg, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.12.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 (build 41)
+Assembler:       Armasm.exe V5.05 (build 41)
+Linker/Locator:  ArmLink.exe V5.05 (build 41)
+Library Manager: ArmAr.exe V5.05 (build 41)
+Hex Converter:   FromElf.exe V5.05 (build 41)
+CPU DLL:         SARMCM3.DLL V5.12.0.0
+Dialog DLL:      DCM.DLL V1.13.0.0
+    Target DLL: Segger\JL2CM3.dll
+Dialog DLL:      TCM.DLL V1.14.2.0
+ 
+<h2>Project:</h2>
+C:\Users\Nikolas\Dropbox\IBS\Powermeter\nrf51422\Board\nrf6310\s310\wearables_powermeter\arm\wearables_powermeter.uvprojx
+Project File Date:  12/09/2014
+
+<h2>Output:</h2>
+Rebuild target 'nrf51422_xxaa_s310 (256K)'
+compiling main.c...
+..\main.c(243): warning:  #177-D: variable "battery_voltage" was declared but never referenced
+                uint16_t battery_voltage;
+..\main.c: 1 warning, 0 errors
+compiling ltc_2942.c...
+..\ltc_2942.c(60): warning:  #550-D: variable "ltc2942_data" was set but never used
+      uint16_t ltc2942_data = 0;
+..\ltc_2942.c(62): warning:  #177-D: variable "voltage" was declared but never referenced
+                float voltage = 0;
+..\ltc_2942.c: 2 warnings, 0 errors
+compiling ble_dis.c...
+compiling ble_bas.c...
+compiling ble_hrs.c...
+compiling ble_cp.c...
+compiling ble_error_log.c...
+compiling ble_advdata.c...
+compiling ble_srv_common.c...
+compiling ble_sensorsim.c...
+compiling app_timer.c...
+compiling softdevice_handler.c...
+compiling ble_conn_params.c...
+compiling app_trace.c...
+compiling simple_uart.c...
+compiling device_manager_peripheral.c...
+compiling pstorage.c...
+compiling crc16.c...
+compiling ble_debug_assert_handler.c...
+compiling twi_hw_master_sd.c...
+assembling arm_startup_nrf51.s...
+compiling system_nrf51.c...
+linking...
+Program Size: Code=23888 RO-data=360 RW-data=244 ZI-data=5796  
+FromELF: creating hex file...
+".\_build\wearables_powermeter.axf" - 0 Error(s), 3 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.2.0.pack
+                ARM::CMSIS:CORE:3.40.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 3.40.0
+
+Package Vendor: NordicSemiconductor
+                http://www.keil.com/pack/NordicSemiconductor.nRF_DeviceFamilyPack.1.1.1.pack
+                NordicSemiconductor::Device:Startup:1.0.0
+                Nordic Semiconductor nRF ARM devices Device Family Pack.
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\Nikolas\Dropbox\IBS\Powermeter\nrf51422\Board\nrf6310\s310\wearables_powermeter\arm\RTE
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.1\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:3.40.0
+      Source file:   CMSIS\UserCodeTemplates\ARM\ITM_Retarget.c
+
+   * Component: NordicSemiconductor::Device:Startup:1.0.0
+      Include file:  Device\Include\system_nrf51.h
+      Source file:   Device\Source\system_nrf51.c
+      Source file:   Device\Source\arm\arm_startup_nrf51.s
+</pre>
+</body>
+</html>
+nductor::Device:Startup:1.0.0
+      Include file:  Device\Include\system_nrf51.h
+      Source file:   Device\Source\system_nrf51.c
+      Source file:   Device\Source\arm\arm_startup_nrf51.s
+Target not created.
+err_code == NRF_SUCCESS);
+..\..\..\..\..\Source\twi_master\twi_hw_master_sd.c(295): warning:  #223-D: function "sd_ppi_channel_enable_clr" declared implicitly
+      err_code = sd_ppi_channel_enable_clr(PPI_CHEN_CH0_Msk);
+..\..\..\..\..\Source\twi_master\twi_hw_master_sd.c: 8 warnings, 4 errors
+assembling arm_startup_nrf51.s...
+compiling system_nrf51.c...
+".\_build\wearables_powermeter.axf" - 4 Error(s), 11 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.2.0.pack
+                ARM::CMSIS:CORE:3.40.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 3.40.0
+
+Package Vendor: NordicSemiconductor
+                http://www.keil.com/pack/NordicSemiconductor.nRF_DeviceFamilyPack.1.1.1.pack
+                NordicSemiconductor::Device:Startup:1.0.0
+                Nordic Semiconductor nRF ARM devices Device Family Pack.
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\Nikolas\Dropbox\IBS\Powermeter\nrf51422\Board\nrf6310\s310\wearables_powermeter\arm\RTE
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.1\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:3.40.0
+      Source file:   CMSIS\UserCodeTemplates\ARM\ITM_Retarget.c
+
+   * Component: NordicSemiconductor::Device:Startup:1.0.0
+      Include file:  Device\Include\system_nrf51.h
+      Source file:   Device\Source\system_nrf51.c
+      Source file:   Device\Source\arm\arm_startup_nrf51.s
+Target not created.

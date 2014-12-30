@@ -1,0 +1,16 @@
+.\_build\spi_master.o: ..\..\..\Source\spi_master\spi_master.c
+.\_build\spi_master.o: ..\..\..\Include\app_common\app_error.h
+.\_build\spi_master.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\_build\spi_master.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\_build\spi_master.o: ..\..\..\Include\sdk_soc\nrf_error.h
+.\_build\spi_master.o: ..\..\..\Include\nrf_gpio.h
+.\_build\spi_master.o: ..\..\..\Include\nrf51.h
+.\_build\spi_master.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0.h
+.\_build\spi_master.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h
+.\_build\spi_master.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h
+.\_build\spi_master.o: ..\..\..\Include\system_nrf51.h
+.\_build\spi_master.o: ..\..\..\Include\nrf51_bitfields.h
+.\_build\spi_master.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0.h
+.\_build\spi_master.o: ..\..\..\Include\sdk_soc\nrf_soc.h
+.\_build\spi_master.o: ..\..\..\Include\spi_master.h
+.\_build\spi_master.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h

@@ -1,0 +1,14 @@
+.\_build\ltc_2942.o: ..\ltc_2942.c
+.\_build\ltc_2942.o: ..\ltc_2942.h
+.\_build\ltc_2942.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\_build\ltc_2942.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\_build\ltc_2942.o: ..\..\..\Include\nrf_gpio.h
+.\_build\ltc_2942.o: ..\..\..\Include\nrf51.h
+.\_build\ltc_2942.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0.h
+.\_build\ltc_2942.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h
+.\_build\ltc_2942.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h
+.\_build\ltc_2942.o: ..\..\..\Include\system_nrf51.h
+.\_build\ltc_2942.o: ..\..\..\Include\nrf51_bitfields.h
+.\_build\ltc_2942.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0.h
+.\_build\ltc_2942.o: ..\..\..\Include\powermeter_board.h
+.\_build\ltc_2942.o: ..\..\..\Include\twi_master.h
